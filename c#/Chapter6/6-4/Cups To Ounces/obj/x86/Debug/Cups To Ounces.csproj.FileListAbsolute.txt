@@ -1,0 +1,8 @@
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-4\Cups To Ounces\bin\Debug\Cups To Ounces.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-4\Cups To Ounces\bin\Debug\Cups To Ounces.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-4\Cups To Ounces\obj\x86\Debug\Cups_To_Ounces.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-4\Cups To Ounces\obj\x86\Debug\Cups_To_Ounces.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-4\Cups To Ounces\obj\x86\Debug\Cups To Ounces.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-4\Cups To Ounces\obj\x86\Debug\Cups To Ounces.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-4\Cups To Ounces\obj\x86\Debug\Cups To Ounces.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-4\Cups To Ounces\obj\x86\Debug\Cups To Ounces.pdb

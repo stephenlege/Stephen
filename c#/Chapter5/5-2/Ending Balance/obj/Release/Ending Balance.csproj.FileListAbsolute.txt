@@ -1,0 +1,9 @@
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-2\Ending Balance\bin\Release\Ending Balance.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-2\Ending Balance\bin\Release\Ending Balance.pdb
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-2\Ending Balance\obj\Release\Ending Balance.csprojAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-2\Ending Balance\obj\Release\Ending_Balance.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-2\Ending Balance\obj\Release\Ending_Balance.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-2\Ending Balance\obj\Release\Ending Balance.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-2\Ending Balance\obj\Release\Ending Balance.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-2\Ending Balance\obj\Release\Ending Balance.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-2\Ending Balance\obj\Release\Ending Balance.pdb

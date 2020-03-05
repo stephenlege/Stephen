@@ -1,0 +1,9 @@
+C:\Users\Greg\Desktop\Program Away\C#\Chapter7\7-2\Test Average\obj\x86\Debug\Test Average.csprojAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter7\7-2\Test Average\obj\x86\Debug\Test_Average.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter7\7-2\Test Average\obj\x86\Debug\Test_Average.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter7\7-2\Test Average\obj\x86\Debug\Test Average.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter7\7-2\Test Average\obj\x86\Debug\Test Average.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter7\7-2\Test Average\bin\Debug\Test Average.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter7\7-2\Test Average\bin\Debug\Test Average.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Chapter7\7-2\Test Average\obj\x86\Debug\Test Average.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter7\7-2\Test Average\obj\x86\Debug\Test Average.pdb

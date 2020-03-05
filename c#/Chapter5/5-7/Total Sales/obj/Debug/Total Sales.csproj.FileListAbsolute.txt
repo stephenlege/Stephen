@@ -1,0 +1,16 @@
+C:\Users\ar114\Desktop\C#\Chapter5\5-7\Total Sales\bin\Debug\Total Sales.exe
+C:\Users\ar114\Desktop\C#\Chapter5\5-7\Total Sales\bin\Debug\Total Sales.pdb
+C:\Users\ar114\Desktop\C#\Chapter5\5-7\Total Sales\obj\Debug\Total Sales.csprojResolveAssemblyReference.cache
+C:\Users\ar114\Desktop\C#\Chapter5\5-7\Total Sales\obj\Debug\Total_Sales.Form1.resources
+C:\Users\ar114\Desktop\C#\Chapter5\5-7\Total Sales\obj\Debug\Total_Sales.Properties.Resources.resources
+C:\Users\ar114\Desktop\C#\Chapter5\5-7\Total Sales\obj\Debug\Total Sales.csproj.GenerateResource.Cache
+C:\Users\ar114\Desktop\C#\Chapter5\5-7\Total Sales\obj\Debug\Total Sales.exe
+C:\Users\ar114\Desktop\C#\Chapter5\5-7\Total Sales\obj\Debug\Total Sales.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-7\Total Sales\obj\Debug\Total Sales.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-7\Total Sales\obj\Debug\Total Sales.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-7\Total Sales\bin\Debug\Total Sales.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-7\Total Sales\bin\Debug\Total Sales.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-7\Total Sales\obj\Debug\Total Sales.csprojResolveAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-7\Total Sales\obj\Debug\Total_Sales.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-7\Total Sales\obj\Debug\Total_Sales.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-7\Total Sales\obj\Debug\Total Sales.csproj.GenerateResource.Cache

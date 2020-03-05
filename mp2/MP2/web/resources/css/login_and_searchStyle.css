@@ -1,0 +1,6 @@
+#login_and_search {
+  height:50px;
+    padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,54,1) 35%, rgba(100,100,100,1) 100%);
+}

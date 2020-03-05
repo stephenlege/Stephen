@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Imp Object</title>
+        <link href="./css/styles.css" rel="stylesheet" type="text/css"/>
+    </h:head>
+    <h:body>
+        <h1 class="title">Implicit Objects</h1>
+        <br/>
+
+        <h:panelGrid>
+            <h3>object param, getting value from the keys</h3>
+            <b>The key asdv2620 request parameter:</b>
+            #{param.asdv2620}
+
+            <br/>
+            <b>The key asdv2800 request parameter:</b>
+            #{param.asdv2800}
+
+
+            <br/>
+            <b>The key asdv1908 request parameter:</b>
+            #{param.asdv1908}
+            <br/>
+
+            <h3>object param loop</h3>
+            <ui:repeat value="#{param.entrySet().toArray()}" var="t">
+                <h:outputText value="key: #{t.key} value: #{t.value}"/><br/>
+            </ui:repeat>
+            <br/>
+
+            <h3>   Cookie   </h3>
+            <b>object cookie, JSESSIONID coookie:</b>
+            #{cookie.JSESSIONID.value}
+            <br/>
+
+            <h3>  Rrrrrrequest  </h3>
+            <b>object request, Context path</b><br/>
+            #{request.contextPath}
+            <br/>
+
+            <h3>  User Object Header:</h3>
+            <b>User-Object header, Agent request header:</b>
+            #{header}<br/>
+            <b>User-Agent request header with brackets:</b><br/>
+            #{header["User-Agent"]}<br/>
+
+
+        </h:panelGrid>
+    </h:body>
+</html>
+

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>#{msgs.registrationTitle}</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+    </h:head>
+    <h:body styleClass="#{formSettings.bodyStyleClass}">
+        <h1>#{msgs.registrationTitle}</h1>
+        <h3>
+            <h:outputFormat value="#{msgs.registrationText}">
+                <f:param value="#{msgs.firstName}"/>
+                <f:param value="#{msgs.lastName}"/>
+                <f:param value="#{msgs.emailAddress}"/>
+            </h:outputFormat>
+            
+        </h3>
+        <h:form>
+            <h:panelGrid columns="3">
+                
+                <h:outputFormat value="#{msgs.prompt}">
+                    <f:param value="#{msgs.firstName}"/>
+                </h:outputFormat>:
+                <h:inputText value="#{person.firstName}"/>
+                
+                <h:outputFormat value="#{msgs.prompt}">
+                    <f:param value="#{msgs.lastName}"/>
+                </h:outputFormat>:
+                <h:inputText value="#{person.lastName}"/>
+                
+                <h:outputFormat value="#{msgs.prompt}">
+                    <f:param value="#{msgs.emailAddress}"/>
+                </h:outputFormat>:
+                <h:inputText value="#{person.emailAddress}"/>
+                
+                <h:commandButton value="#{msgs.registrationTitle}"
+                                 action="#{person.doRegistration()}"/>
+            </h:panelGrid>
+            <div align="center">
+                <h:commandButton value="#{msgs.normalFont}"
+                                 actionListener="#{formSettings.setNormalSize(anything)}"
+                                 immediate="true"/>
+                
+                <h:commandButton value="#{msgs.largeFont}"
+                                 actionListener="#{formSettings.setLargeSize(anything)}"
+                                 immediate="true"/>
+            </div>
+        </h:form>
+    </h:body>
+</html>
+

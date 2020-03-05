@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        Message: #{simpleBean.message}
+        <br/>
+        First Color: #{simpleBean.getColor(0)}
+        <br/>
+        ------------------------------------------------------------------------
+        <br/>
+        Creation Time: #{testBean1.creationTime}
+        <br/>
+        Greeting: #{testBean1.greeting}
+        <br/>
+        ------------------------------------------------------------------------
+        <br/>
+        <h:form>
+        <h:commandLink value="Submit your Props" action="submitting-properties.xhtml"/>
+        </h:form>
+        <br/>
+        -------------------------------------------------------------------------------
+        <br/>
+        
+        <h:form>
+            <h:commandLink value="Using Collections" action="using-collections"/>
+        </h:form>
+        <br/>
+        -------------------------------------------------------------------------------
+        <br/>
+        
+        <h:form>
+             <h:commandLink value="Traversing Collections" action="traverse-collection"/>
+        </h:form>
+        
+        <!--
+        <br/>
+        
+        <br/>
+        
+        <h:form>
+             <h:commandLink value="Implicit Objects" 
+                            action="implicit-objects?faces-redirect=true &amp;asdv=2620 &amp;key2=value2
+                            &amp;"/>
+        </h:form>
+        -->
+    </h:body>
+</html>
+

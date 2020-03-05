@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+   <h:head>
+      <h:outputStylesheet library="css" name="styles.css"/>
+      <title>#{msgs.MIWindowTitle}</title>
+   </h:head>
+
+   <h:body>
+      <h:form>
+          <span class="stateTitle">#{msgs.MIPageTitle}</span>
+          <h:panelGrid columns="4">
+                    <h:commandButton value="English"
+                                     actionListener="#{localeBean.setEnglish}"
+                                     />
+                    <h:commandButton value="Russian"
+                                     actionListener="#{localeBean.setRussian(event)}"
+                                     immediate="true"/>
+                    <h:commandButton value="Japanese"
+                                     actionListener="#{localeBean.setJapanese(event)}"
+                                     immediate="true"/>
+                    <h:commandButton value="Greek"
+                                     actionListener="#{localeBean.setGreek(event)}"
+                                     immediate="true"/>
+                </h:panelGrid>
+         <br/>
+         <h:graphicImage library="images" name="mississippi.jpg" 
+                         styleClass="leftImage"/>
+
+         <span class="stateDiscussion">#{msgs.MIDiscussion}</span>
+         <br/>
+         <h:commandLink action="index" styleClass="backLink">${msgs.indexLinkText}</h:commandLink>
+      </h:form>
+   </h:body>
+</html>

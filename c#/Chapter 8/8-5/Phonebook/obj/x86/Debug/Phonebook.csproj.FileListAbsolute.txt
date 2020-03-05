@@ -1,0 +1,9 @@
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-5\Phonebook\obj\x86\Debug\Phonebook.csprojAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-5\Phonebook\obj\x86\Debug\Phonebook.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-5\Phonebook\obj\x86\Debug\Phonebook.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-5\Phonebook\obj\x86\Debug\Phonebook.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-5\Phonebook\obj\x86\Debug\Phonebook.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-5\Phonebook\bin\Debug\Phonebook.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-5\Phonebook\bin\Debug\Phonebook.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-5\Phonebook\obj\x86\Debug\Phonebook.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-5\Phonebook\obj\x86\Debug\Phonebook.pdb

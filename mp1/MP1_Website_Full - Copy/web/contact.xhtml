@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f5="http://xmlns.jcp.org/jsf/passthrough">
+
+    <h:head>
+        <title></title>
+    </h:head>
+    <h:body>
+        <!--calls the template layout-->
+        <ui:composition template="template/layout.xhtml">     
+
+            <ui:param name="wrapperWidth" value="1055px"/>
+            <!--title area-->
+            <ui:define name="title">
+                WooHoo Computers
+            </ui:define>
+            <!--login area that calls the bean and updates the database-->
+            <ui:define name="login">
+                <h:form style="#{loginBean.loginBarStyles}">
+                    <h:inputText styleClass="inputs" value="#{loginBean.userName1}" f5:type="email" f5:placeholder="E-mail"/>            
+                    <h:inputSecret  styleClass="inputs" value="#{loginBean.password1}" f5:placeholder="Password"/>            
+                    <h:commandButton styleClass="lbutton" value="Login" action="#{loginBean.login()}"/>
+                    <h:outputText style="color: red;" value="#{loginBean.error}"/>
+                </h:form>
+            </ui:define>
+            <!--search function bar-->
+            <ui:param name="search" value="true"/>
+            <ui:define name="search">
+                <h:form>
+                    <h:inputText styleClass="inputs" value="#{itemsBean.searchTerm}" f5:type="search" f5:placeholder="Search"/>
+                    <h:commandButton styleClass="lbutton" value="Search" action="#{itemsBean.search()}"/>
+                </h:form>
+            </ui:define>
+            <!--logo area-->
+            <ui:define name="logo"/>
+            <!--top area-->
+            <ui:define name="top">     
+                We sell the antiques!
+            </ui:define>
+            <!--menu area-->
+            <ui:define name="menu">
+                <ui:include src="rafaMenu.xhtml" />
+            </ui:define>
+            <!--left side with tiered menu-->
+            <ui:param name="leftWidth" value="200px"/>
+            <ui:define name="left">
+                <ui:include src="tieredMenu.xhtml"/>
+            </ui:define>
+            <!--unused right side-->
+            <ui:param name="right" value="false"/>
+            <!--content area, button opens up default computer's mail program-->
+            <ui:define name="content">   
+                <div style="font-size: 1.8em; color: whitesmoke;">Send us some mail through the Hyper Text:</div>
+                <br/>
+                <form action="MAILTO:stephenlege@solacc.edu" method="GET" enctype="text/plain">
+
+                    <input type="submit" value="Send"/> 
+                </form>
+            </ui:define>
+
+            <!--bottom defined copyright area-->
+            <ui:define name="bottom">
+                SLCC ASDV © 2018. All Rights Reserved.
+            </ui:define>
+
+        </ui:composition>
+
+        <br />
+        <h:link outcome="welcomePrimefaces" value="Primefaces welcome page" />
+    </h:body>
+</html>
+

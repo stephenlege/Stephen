@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Problem1</title>
+    </h:head>
+    <h:body>
+        <h1>Problem1</h1>
+        <h:form>
+            
+            #{msgs.name} <h:inputText immediate="true" value="#{concat.name}"/><br/><br/>
+            #{msgs.age}  <h:inputText immediate="true" value="#{concat.day}"/><br/><br/>
+            
+            <h:commandButton id="show" value="Click here for concat" action="#{concat.concat}"></h:commandButton>
+            <h:message for="show"></h:message><br/><br/>
+            
+            <h:commandLink value="Problem 2" action="problem2"/><br/>
+            <h:commandLink value="Problem 3" action="problem3"/> 
+            
+            
+        </h:form>
+    </h:body>
+</html>
+

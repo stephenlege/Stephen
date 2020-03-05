@@ -1,0 +1,10 @@
+C:\Users\Greg\Desktop\Program Away\C#\Test2_Lege\Test2_Lege\bin\Debug\Test2_Lege.exe.config
+C:\Users\Greg\Desktop\Program Away\C#\Test2_Lege\Test2_Lege\bin\Debug\Test2_Lege.exe
+C:\Users\Greg\Desktop\Program Away\C#\Test2_Lege\Test2_Lege\bin\Debug\Test2_Lege.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Test2_Lege\Test2_Lege\obj\Debug\Test2_Lege.csprojAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\Test2_Lege\Test2_Lege\obj\Debug\Test2_Lege.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\Test2_Lege\Test2_Lege\obj\Debug\Test2_Lege.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\Test2_Lege\Test2_Lege\obj\Debug\Test2_Lege.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\Test2_Lege\Test2_Lege\obj\Debug\Test2_Lege.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\Test2_Lege\Test2_Lege\obj\Debug\Test2_Lege.exe
+C:\Users\Greg\Desktop\Program Away\C#\Test2_Lege\Test2_Lege\obj\Debug\Test2_Lege.pdb

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:inputText id="value1" value="#{sum.value1}"/>
+            <br/>
+            <h:inputText id="value2" value="#{sum.value2}"/>
+            <br/>
+            <h:commandButton value="Print sum" action="#{sum.toPrint}">
+                <f:ajax execute="value1 value2" render="output"/>
+            </h:commandButton>
+            <br/>
+            <h:outputText id="output" value="#{sum.value}"/>
+        </h:form>
+    </h:body>
+</html>
+

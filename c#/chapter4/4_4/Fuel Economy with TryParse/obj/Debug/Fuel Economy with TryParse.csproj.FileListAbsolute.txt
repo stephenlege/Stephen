@@ -1,0 +1,9 @@
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_4\Fuel Economy with TryParse\bin\Debug\Fuel Economy with TryParse.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_4\Fuel Economy with TryParse\bin\Debug\Fuel Economy with TryParse.pdb
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_4\Fuel Economy with TryParse\obj\Debug\Fuel Economy with TryParse.csprojAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_4\Fuel Economy with TryParse\obj\Debug\Fuel_Economy_with_TryParse.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_4\Fuel Economy with TryParse\obj\Debug\Fuel_Economy_with_TryParse.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_4\Fuel Economy with TryParse\obj\Debug\Fuel Economy with TryParse.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_4\Fuel Economy with TryParse\obj\Debug\Fuel Economy with TryParse.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_4\Fuel Economy with TryParse\obj\Debug\Fuel Economy with TryParse.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_4\Fuel Economy with TryParse\obj\Debug\Fuel Economy with TryParse.pdb

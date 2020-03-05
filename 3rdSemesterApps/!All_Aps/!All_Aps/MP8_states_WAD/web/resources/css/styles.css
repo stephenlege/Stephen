@@ -1,0 +1,36 @@
+.body {
+   background: #eee;
+}
+.instructions {
+	font-style: italic;
+	font-size: 1.2em;
+}
+.imageButton {
+	margin: 10px;
+	border-left: thin solid darkGray;
+	border-bottom: thin solid darkGray;
+	border-top: thin solid lightGray;
+	border-right: thin solid lightGray;
+}
+.stateTitle {
+   vertical-align: top;
+   text-align: middle;
+   font-style: italic;
+   font-size: 2em;
+}
+.stateDiscussion {
+   vertical-align: top;
+   text-align: left;
+   font-size: 1em;
+   color: green;
+   font-weight: strong;
+}
+
+.leftImage {
+   float: left;
+   
+}
+
+.backLink {
+	font-style: italic;
+}

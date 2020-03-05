@@ -1,0 +1,9 @@
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_2\Payroll with Overtime\bin\Release\Payroll with Overtime.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_2\Payroll with Overtime\bin\Release\Payroll with Overtime.pdb
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_2\Payroll with Overtime\obj\Release\Payroll with Overtime.csprojAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_2\Payroll with Overtime\obj\Release\Payroll_with_Overtime.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_2\Payroll with Overtime\obj\Release\Payroll_with_Overtime.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_2\Payroll with Overtime\obj\Release\Payroll with Overtime.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_2\Payroll with Overtime\obj\Release\Payroll with Overtime.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_2\Payroll with Overtime\obj\Release\Payroll with Overtime.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_2\Payroll with Overtime\obj\Release\Payroll with Overtime.pdb

@@ -1,0 +1,20 @@
+C:\Users\Greg\Desktop\Program Away\C#\SlotMachineFun\SlotMachineFun\bin\Debug\SlotMachineFun.exe.config
+C:\Users\Greg\Desktop\Program Away\C#\SlotMachineFun\SlotMachineFun\bin\Debug\SlotMachineFun.exe
+C:\Users\Greg\Desktop\Program Away\C#\SlotMachineFun\SlotMachineFun\bin\Debug\SlotMachineFun.pdb
+C:\Users\Greg\Desktop\Program Away\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.csprojAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.exe
+C:\Users\Greg\Desktop\Program Away\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.pdb
+C:\Users\asdv\Desktop\stephen\Program Away\1st semester\C#\SlotMachineFun\SlotMachineFun\bin\Debug\SlotMachineFun.exe.config
+C:\Users\asdv\Desktop\stephen\Program Away\1st semester\C#\SlotMachineFun\SlotMachineFun\bin\Debug\SlotMachineFun.exe
+C:\Users\asdv\Desktop\stephen\Program Away\1st semester\C#\SlotMachineFun\SlotMachineFun\bin\Debug\SlotMachineFun.pdb
+C:\Users\asdv\Desktop\stephen\Program Away\1st semester\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.csprojAssemblyReference.cache
+C:\Users\asdv\Desktop\stephen\Program Away\1st semester\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.Form1.resources
+C:\Users\asdv\Desktop\stephen\Program Away\1st semester\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.Properties.Resources.resources
+C:\Users\asdv\Desktop\stephen\Program Away\1st semester\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.csproj.GenerateResource.cache
+C:\Users\asdv\Desktop\stephen\Program Away\1st semester\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.csproj.CoreCompileInputs.cache
+C:\Users\asdv\Desktop\stephen\Program Away\1st semester\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.exe
+C:\Users\asdv\Desktop\stephen\Program Away\1st semester\C#\SlotMachineFun\SlotMachineFun\obj\Debug\SlotMachineFun.pdb

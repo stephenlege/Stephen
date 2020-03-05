@@ -1,0 +1,15 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>File Upload</title>
+    </h:head>
+    <h:body>
+        <h:form enctype="multipart/form-data" prependId="false">
+            <h:outputText value="File: "/>
+            <h:inputFile value="#{fileUploadBean.uploadedFile}"/>
+            <h:commandButton value="Save" type="submit" action="#{fileUploadBean.saveFile()}"/>
+        </h:form>
+        <h:outputText value="#{fileUploadBean.msg}"/>
+    </h:body>
+</html>
+

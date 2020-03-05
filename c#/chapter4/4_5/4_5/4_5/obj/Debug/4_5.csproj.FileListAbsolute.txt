@@ -1,0 +1,9 @@
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_5\4_5\4_5\bin\Debug\4_5.exe.config
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_5\4_5\4_5\bin\Debug\4_5.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_5\4_5\4_5\bin\Debug\4_5.pdb
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_5\4_5\4_5\obj\Debug\4_5.csprojResolveAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_5\4_5\4_5\obj\Debug\_4_5.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_5\4_5\4_5\obj\Debug\_4_5.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_5\4_5\4_5\obj\Debug\4_5.csproj.GenerateResource.Cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_5\4_5\4_5\obj\Debug\4_5.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_5\4_5\4_5\obj\Debug\4_5.pdb

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Guess Number</title>
+    </h:head>
+    <h:body>
+        <div align="center">
+            <h:form>
+                <h1>Enter a number than click guess button!</h1><br/>
+                Enter number here: <h:inputText value="#{guessNumber.guess}"/><br/><br/><br/>
+               
+
+                <h:commandButton value="Guess" action="#{guessNumber.checkAnswer()}"/><br/>
+                
+                <h:commandButton value="Reset" action="#{guessNumber.reset()}"/><br/>
+                Remaining Guesses: <h:outputText value="#{guessNumber.remainingGuesses}"/>
+
+
+        </h:form>
+    </div>
+</h:body>
+</html>
+

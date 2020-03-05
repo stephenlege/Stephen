@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h3>assignment operator, concatenation operator</h3>
+        {x = 3}:  #{x=3}<br/>
+        {y = x + 5}:  #{y = x + 5}<br/>
+        {z = x + y}:  #{z= x + y}<br/>
+        concatenation operator += {z += x} #{z += x}
+
+        <h3>semicolon operator</h3>
+        {x = 5; y = 3; z = x + y}: #{x = 5; y = 3; z = x + y}<br/>
+
+        <h3>lambda expressions and conditional operator</h3>
+        {(x->x+1)(3)}: #{(x->x+1)(3)}<br/>
+        
+        
+        declaration and use of lamba var((x)->x*x): #{squareOfNumber = ((x)->x*x);squareOfNumber(4)}<br/>
+        use of lambda var outside the initial {squareOfNumber(5)}: #{squareOfNumber(5)}<br/>
+        
+        #{min=(x,y)-> (x lt y ? x : y); min(1,2)}<br/>
+        #{min(3,4)}<br/>
+        
+        
+        <h3>call a bean method with EL as lambda expression</h3>
+        #{lambdaAction.lambda1(max = (x,y)-> x gt y ? x : y)}<br/>
+        
+        <h3>Collections as lambda expression</h3>
+        set: #{set = [10,2,1,44]} <br/>
+        list: #{list = [100,2,20,33]}<br/>
+        map: #{map = {"one":1,"two":2,"three":3,"four": 4}}<br/>
+        
+        sorting a list descending: #{list.stream().sorted((i,j)->i-j).toList()}<br/>
+        sorting a list ascending:  #{list.stream().sorted((i,j)->j-i).toList()}<br/>
+        
+        <h3>Traversing a lambda collection</h3>
+        <ui:repeat value="#{map.keySet().toArray()}" var="t">
+            <h:outputText value="key: #{t} value: #{map.get(t)}"/><br/>
+        
+        </ui:repeat>
+            
+      
+
+
+
+    </h:body>
+</html>
+

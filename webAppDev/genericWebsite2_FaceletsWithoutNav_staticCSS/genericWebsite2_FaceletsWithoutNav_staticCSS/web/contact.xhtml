@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f5="http://xmlns.jcp.org/jsf/passthrough">
+    <h:head>
+        <title></title>         
+    </h:head>
+    <h:body>
+        <ui:composition template="template/layout.xhtml">     
+
+            <ui:param name="wrapperWidth" value="1055px"/>
+
+            <ui:define name="title">
+                Contact
+            </ui:define>
+
+
+
+
+
+            <ui:define name="logo"/>
+
+            <ui:define name="top">     
+                .:KING OF CLAY ... KING OF ATP:.
+            </ui:define>
+
+            <ui:define name="menu">
+                <ui:include src="rafaMenu.xhtml" />
+            </ui:define>
+ 
+            <ui:param name="login" value="false"/>
+            <ui:param name="search" value="false"/>
+            <ui:param name="left" value="false"/>
+            <ui:param name="right" value="false"/>
+
+            <ui:define name="content">               
+                <hr/>
+                <h1> Put here the proper form to contact you </h1>
+                <hr/>
+            </ui:define>
+
+            <ui:define name="bottom">
+                SLCC ASDV © 2018. All Rights Reserved.
+                <a  href="mailto:athanasios.markou@solacc.edu " style="color: #ff0">athanasios.markou@solacc.edu</a>
+            </ui:define>
+
+        </ui:composition>
+    </h:body>
+</html>
+

@@ -1,0 +1,8 @@
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-2\Cards\bin\Release\Cards.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-2\Cards\bin\Release\Cards.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-2\Cards\obj\Release\Cards.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-2\Cards\obj\Release\Cards.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-2\Cards\obj\Release\Cards.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-2\Cards\obj\Release\Cards.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-2\Cards\obj\Release\Cards.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-2\Cards\obj\Release\Cards.pdb

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html">
+    <ui:composition>
+
+        <h:panelGrid columns="3" columnClasses="discussionColumn"
+                     rendered="#{mp.studentCurrent}">
+
+            <h:panelGrid columns="2">
+
+                <h:commandLink  title="#{msgs.promptFDtheory}"
+                                styleClass="#{mp.promotionsStyle}"
+                                actionListener="#{mp.fdAction}">
+                    #{msgs.promptFDtheory}
+                </h:commandLink>
+            </h:panelGrid>
+
+        </h:panelGrid>
+
+    </ui:composition>
+
+</html>

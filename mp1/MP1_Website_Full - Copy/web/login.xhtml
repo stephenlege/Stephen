@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f5="http://xmlns.jcp.org/jsf/passthrough">
+
+    <h:head>
+        <title></title>
+    </h:head>
+    <h:body>
+        <!--calls the template layout-->
+        <ui:composition template="template/layout.xhtml">     
+
+            <ui:param name="wrapperWidth" value="1055px"/>
+            <!--title area-->
+            <ui:define name="title">
+                Woohoo Computers
+            </ui:define>
+            <!--login area that calls a bean and updates the database-->
+            <ui:param name="login" value="false"/>
+
+            <!--search bar area that calls the bean and access's the database-->
+            <ui:param name="search" value="true"/>
+            <ui:define name="search">
+                <h:form>
+                    <h:inputText styleClass="inputs" value="#{itemsBean.searchTerm}" f5:type="search" f5:placeholder="Search"/>
+                    <h:commandButton styleClass="lbutton" value="Search" action="#{itemsBean.search()}"/>
+                </h:form>
+            </ui:define>
+
+            <!--logo area-->
+            <ui:define name="logo"/>
+
+            <!--top area-->
+            <ui:define name="top">     
+                We sell Antiques
+            </ui:define>
+
+            <!--menu area that holds links to other pages-->
+            <ui:define name="menu">
+                <ui:include src="rafaMenu.xhtml" />
+            </ui:define>
+
+            <!--left area that houses the tiered style menu-->
+            <ui:param name="leftWidth" value="200px"/>
+            <ui:define name="left">
+                <ui:include src="tieredMenu.xhtml"/>
+            </ui:define>
+
+            <!--unused right area-->
+            <ui:param name="right" value="false"/>
+
+            <!--displays registration form that upddates the database-->
+            <ui:define name="content">               
+                <hr/>
+                <h1 style="text-align: center;">Login here:</h1>
+                <hr/>
+                <h:form>
+                    <h2  style="color: yellow;">Enter email: </h2> <h:inputText value="#{loginBean.userName2}"/><h:outputText style="color: yellow;" value="#{loginBean.emailError}"/><br/>
+                    <h2  style="color: yellow;">Enter password: </h2> <h:inputText value="#{loginBean.password2}"/><br/>
+                    <h:commandButton value="Register" action="#{loginBean.register()}"/>
+                    <h:outputText value="Once registered, you have to relogin!" style="color: yellow"/>
+                    <h:messages  infoStyle="color:darkgreen" errorStyle="color:darkred"/>  
+                </h:form>
+                <hr/>
+            </ui:define>
+
+            <!--bottom area that holds copyright information-->
+            <ui:define name="bottom">
+                SLCC ASDV © 2018. All Rights Reserved.
+            </ui:define>
+
+        </ui:composition>
+
+        <br />
+
+    </h:body>
+</html>
+

@@ -1,0 +1,9 @@
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_1\Test Score Average\bin\Debug\Test Score Average.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_1\Test Score Average\bin\Debug\Test Score Average.pdb
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_1\Test Score Average\obj\x86\Debug\Test Score Average.csprojAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_1\Test Score Average\obj\x86\Debug\Test_Score_Average.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_1\Test Score Average\obj\x86\Debug\Test_Score_Average.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_1\Test Score Average\obj\x86\Debug\Test Score Average.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_1\Test Score Average\obj\x86\Debug\Test Score Average.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_1\Test Score Average\obj\x86\Debug\Test Score Average.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter4\4_1\Test Score Average\obj\x86\Debug\Test Score Average.pdb

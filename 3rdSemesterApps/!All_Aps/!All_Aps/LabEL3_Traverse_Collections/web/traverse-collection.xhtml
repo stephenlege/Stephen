@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>traverse collections</title>
+    </h:head>
+    <h:body>
+        <h3>Iterate an ArrayList</h3>
+        <ui:repeat var="t" value="#{employeeBean.dataArrayList}">
+            <h:outputText value="First name: #{t.name.firstName}
+                          Last name: #{t.name.lastName}
+                          company name: #{t.company.companyName}
+                          "/><br/>
+        </ui:repeat>
+        <br/><br/>
+        
+        <h3>Iterate an ArrayList only even indexes using step</h3>
+        <ui:repeat var="t" varStatus="vs" step="2" value="#{employeeBean.dataArrayList}">
+            <h:outputText value="#{vs.index}... #{t.company.companyName}
+                          "/><br/>
+        </ui:repeat>
+        <br/><br/>
+        
+        <h3>Iterate an ArrayList only even indexes using step</h3>
+        <ui:repeat var="t" varStatus="vs" step="2"  offset="1" value="#{employeeBean.dataArrayList}">
+            <h:outputText value="#{vs.index}... #{t.company.companyName}
+                          "/><br/>
+        </ui:repeat>
+        <br/><br/>
+        
+        <h3>Iterate an HashMap (t.key, t.value) - approach 1</h3>
+        <ui:repeat  value="#{employeeBean.dataHashMap.entrySet().toArray()}" var="t">
+            <h:outputText value="key: #{t.key} value of company: #{t.value.company.companyName}"/>
+        <br/>
+        </ui:repeat>
+        <br/><br/>
+        
+        <h3>Iterate an HashMap (t,bean.hashMap.get(t)) - approach 2</h3>
+        <ui:repeat  value="#{employeeBean.dataHashMap.keySet().toArray()}" var="t">
+            <h:outputText value="key: #{t} value of company: #{employeeBean.dataHashMap.get(t).company.companyName}"/>
+        <br/>
+        </ui:repeat>
+        <br/><br/>
+        
+         <h3>Iterate an HashMap (t, value.toArray) - approach 3</h3>
+        <ui:repeat  value="#{employeeBean.dataHashMap.values().toArray()}" var="t">
+            <h:outputText value="#{t.company.companyName}"/><br/>
+        <br/>
+        </ui:repeat>
+        <br/><br/>
+        
+        <h3>HashMap as Collection</h3>
+        <ui:repeat  value="#{employeeBean.dataHashMapCovertedToCollection.toArray()}" var="t">
+            <h:outputText value="#{t.company.companyName}"/><br/>
+        <br/>
+        </ui:repeat>
+        <br/>
+        --------------------------------------------------------------------------
+        <br/>
+        
+        
+        <h3>TreeMap sorted on KEY, using keySet</h3>
+        <ui:repeat  value="#{employeeBean.dataTreeMap.keySet().toArray()}" var="t">
+            <h:outputText value="#{t} value name: #{employeeBean.dataTreeMap.get(t).name.firstName}"/><br/>
+        <br/>
+        </ui:repeat>
+        <br/><br/>
+        
+          <h3>TreeMap sorted on Key,  using values</h3>
+          <ui:repeat  value="#{employeeBean.dataTreeMap.values().toArray()}" var="t">
+            <h:outputText value="#{t.name.firstName}"/><br/>
+        <br/>
+        </ui:repeat>
+        <br/><br/>
+        
+        <h3>TreeSet sorted on lastName</h3>
+        <ui:repeat  value="#{employeeBean.dataTreeSet.toArray()}" var="t">
+            <h:outputText value="#{t.company.companyName}"/><br/>
+        <br/>
+        </ui:repeat>
+        <br/><br/>
+        
+         <h3>HashSet</h3>
+         <ui:repeat  value="#{employeeBean.dataHashSet.toArray()}" var="t">
+            <h:outputText value="#{t.company.companyName}"/><br/>
+        <br/>
+        </ui:repeat>
+        <br/><br/>
+    </h:body>
+</html>
+

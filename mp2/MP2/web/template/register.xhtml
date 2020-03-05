@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:body>
+        <ui:composition>
+            <h:form>
+            <h1 style="text-align: center; color: wheat">Register below, then re-log in!</h1>
+            <table>
+                <tr><th><h3 style="color:wheat">Email:</h3></th><td><h:inputText class="inputs" id="email" required="true" label="email" size="20"
+                         requiredMessage="Please enter your email address."
+                         validatorMessage="Invalid email format"
+                         value="#{function.email}">
+                <f:validateRegex 
+                    pattern="^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" />
+            </h:inputText></td></tr>
+                <tr><th><h3 style="color:wheat">Password:</h3></th><td><h:inputSecret value="#{function.password}"/></td></tr>
+                
+            </table>
+            <br/>
+            <h:commandButton value="Register" action="#{function.register()}"/>
+            </h:form>
+        </ui:composition>
+    </h:body>
+</html>
+

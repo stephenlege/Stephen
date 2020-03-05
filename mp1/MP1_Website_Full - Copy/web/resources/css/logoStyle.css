@@ -1,0 +1,8 @@
+/*logo for the website, goes to the left of siteheader*/
+#logo {
+    background-image:url("#{resource['images/logo.png']}");
+    margin-right: 1px;
+    width:150px;
+    height:125px;
+
+}

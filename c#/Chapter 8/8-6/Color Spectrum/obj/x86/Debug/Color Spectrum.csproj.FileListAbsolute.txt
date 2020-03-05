@@ -1,0 +1,9 @@
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-6\Color Spectrum\bin\Debug\Color Spectrum.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-6\Color Spectrum\bin\Debug\Color Spectrum.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-6\Color Spectrum\obj\x86\Debug\Color Spectrum.csprojAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-6\Color Spectrum\obj\x86\Debug\Color_Spectrum.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-6\Color Spectrum\obj\x86\Debug\Color_Spectrum.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-6\Color Spectrum\obj\x86\Debug\Color Spectrum.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-6\Color Spectrum\obj\x86\Debug\Color Spectrum.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-6\Color Spectrum\obj\x86\Debug\Color Spectrum.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter 8\8-6\Color Spectrum\obj\x86\Debug\Color Spectrum.pdb

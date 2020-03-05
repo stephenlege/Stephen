@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll with Overtime", "Payroll with Overtime\Payroll with Overtime.csproj", "{96182D1A-AD11-4145-8DF8-293D3E45E03C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96182D1A-AD11-4145-8DF8-293D3E45E03C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96182D1A-AD11-4145-8DF8-293D3E45E03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96182D1A-AD11-4145-8DF8-293D3E45E03C}.Debug|x86.ActiveCfg = Debug|x86
+		{96182D1A-AD11-4145-8DF8-293D3E45E03C}.Debug|x86.Build.0 = Debug|x86
+		{96182D1A-AD11-4145-8DF8-293D3E45E03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96182D1A-AD11-4145-8DF8-293D3E45E03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96182D1A-AD11-4145-8DF8-293D3E45E03C}.Release|x86.ActiveCfg = Release|x86
+		{96182D1A-AD11-4145-8DF8-293D3E45E03C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C53D420E-D5F8-437C-9B3E-7BE4D6B70EF0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f5="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+
+    <h:head>
+        <!--JS function to grab the key value of current Product-->
+        <script>
+            function keyish() {
+                return var key = #{key};
+            }
+        </script>
+        <title></title>
+    </h:head>
+    <h:body>
+        <!--calls the template layout-->
+        <ui:composition template="template/layout.xhtml">     
+            <ui:param name="wrapperWidth" value="1055px"/>
+
+            <!--title area-->
+            <ui:define name="title">
+                Woohoo Computers
+            </ui:define>
+
+            <!--login area that calls a bean and updates the database-->
+            <ui:define name="login">
+                <h:form style="#{loginBean.loginBarStyles}">
+                    <h:inputText styleClass="inputs" value="#{loginBean.userName1}" f5:type="email" f5:placeholder="E-mail"/>            
+                    <h:inputSecret  styleClass="inputs" value="#{loginBean.password1}" f5:placeholder="Password"/>            
+                    <h:commandButton styleClass="lbutton" value="Login" action="#{loginBean.login()}"/>
+                    <h:outputText style="color: red;" value="#{loginBean.error}"/>
+                </h:form>
+            </ui:define>
+
+            <!--search bar area that calls the bean and access's the database-->
+            <ui:param name="search" value="true"/>
+            <ui:define name="search">
+                <h:form>
+                    <h:inputText styleClass="inputs" value="#{itemsBean.searchTerm}" f5:type="search" f5:placeholder="Search"/>
+                    <h:commandButton styleClass="lbutton" value="Search" action="#{itemsBean.search()}"/>
+                </h:form>
+            </ui:define>
+
+            <!--logo area-->
+            <ui:define name="logo"/>
+
+            <!--top area-->
+            <ui:define name="top">     
+                Antiques!
+            </ui:define>
+
+            <!--menu area that holds links to other pages-->
+            <ui:define name="menu">
+                <ui:include src="rafaMenu.xhtml" />
+            </ui:define>
+
+            <!--left area that houses the tiered style menu-->
+            <ui:param name="leftWidth" value="200px"/>
+            <ui:define name="left">
+                <ui:include src="tieredMenu.xhtml"/>
+            </ui:define>
+
+            <!--unused right area-->
+            <ui:param name="right" value="false"/>
+
+            <!--displays any items matching the entered search term-->
+            <ui:define name="content">               
+                <hr/>
+                <h1 style="color: #CCCC00">Search Results</h1>
+                <h:form>
+                    <h:dataTable value="#{itemsBean.keyList}" var="key">
+                        <h:column>
+                            <h:outputText value="#{itemsBean.searchResults.get(key)}" style="font-size: 2em; color: wheat"/>
+                        </h:column>
+                        <h:column>
+                            <!--buttons to access the product page-->
+                            <h:commandButton  value="Venture" action="#{itemsBean.changeProduct(key)}"/>
+                        </h:column>
+                    </h:dataTable>
+                </h:form>
+                <hr/>
+            </ui:define>
+
+            <!--bottom area that holds copyright information-->
+            <ui:define name="bottom">
+                SLCC ASDV © 2018. All Rights Reserved.
+            </ui:define>
+
+        </ui:composition>
+
+
+    </h:body>
+</html>
+

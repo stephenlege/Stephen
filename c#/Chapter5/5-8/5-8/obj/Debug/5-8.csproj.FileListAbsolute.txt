@@ -1,0 +1,11 @@
+C:\Users\ar114\AppData\Local\Temporary Projects\5-8\bin\Debug\5-8.exe.config
+C:\Users\ar114\Desktop\C#\Chapter 4\5-8\5-8\bin\Debug\5-8.exe.config
+C:\Users\ar114\Desktop\C#\Chapter5\5-8\5-8\bin\Debug\5-8.exe.config
+C:\Users\ar114\Desktop\C#\Chapter5\5-8\5-8\bin\Debug\5-8.exe
+C:\Users\ar114\Desktop\C#\Chapter5\5-8\5-8\bin\Debug\5-8.pdb
+C:\Users\ar114\Desktop\C#\Chapter5\5-8\5-8\obj\Debug\5-8.csprojResolveAssemblyReference.cache
+C:\Users\ar114\Desktop\C#\Chapter5\5-8\5-8\obj\Debug\_5_8.Form1.resources
+C:\Users\ar114\Desktop\C#\Chapter5\5-8\5-8\obj\Debug\_5_8.Properties.Resources.resources
+C:\Users\ar114\Desktop\C#\Chapter5\5-8\5-8\obj\Debug\5-8.csproj.GenerateResource.Cache
+C:\Users\ar114\Desktop\C#\Chapter5\5-8\5-8\obj\Debug\5-8.exe
+C:\Users\ar114\Desktop\C#\Chapter5\5-8\5-8\obj\Debug\5-8.pdb

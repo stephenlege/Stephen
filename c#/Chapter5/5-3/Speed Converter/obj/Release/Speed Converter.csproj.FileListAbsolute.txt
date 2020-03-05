@@ -1,0 +1,8 @@
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-3\Speed Converter\bin\Release\Speed Converter.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-3\Speed Converter\bin\Release\Speed Converter.pdb
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-3\Speed Converter\obj\Release\Speed_Converter.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-3\Speed Converter\obj\Release\Speed_Converter.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-3\Speed Converter\obj\Release\Speed Converter.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-3\Speed Converter\obj\Release\Speed Converter.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-3\Speed Converter\obj\Release\Speed Converter.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-3\Speed Converter\obj\Release\Speed Converter.pdb

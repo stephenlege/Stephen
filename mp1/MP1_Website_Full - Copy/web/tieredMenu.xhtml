@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+
+    </h:head>
+    <!--loads all the products from the database-->
+    <h:body onload="#{itemsBean.getAllProducts()}">
+        <h:form> 
+            <!--When hovered, displays next group of items-->
+            <h:panelGrid columns="1">
+                <p:growl id="messages" showDetail="true" />
+
+                <p:commandLink 
+                    id="computerLink" value="Computers"  styleClass="hover" style="text-decoration: none; color: yellow; font-size: 2em;"/>
+
+                <p:commandLink 
+                    id="phoneLink" value="Phones"  styleClass="hover" style="text-decoration: none; color: yellow;  font-size: 2em;"/>
+
+                <p:tieredMenu 
+                    overlay="true" 
+                    trigger="computerLink" 
+                    my="right top" 
+                    at="left bottom" style="width:200px; border: white; padding: 0px">
+
+                    <p:submenu label="PCs" styleClass="hover">
+                        <p:menuitem value="Macintosh" action="#{itemsBean.changeProduct('pc1')}" update="messages" styleClass="menus" />
+                        <p:menuitem value="iBM PDX" action="#{itemsBean.changeProduct('pc2')}" update="messages" styleClass="menus" />
+                        <p:menuitem value="Atsushi Lizuka" action="#{itemsBean.changeProduct('pc3')}" update="messages" styleClass="menus" />
+                    </p:submenu>
+                    
+                    <p:submenu label="Laptops" styleClass="hover">
+                        <p:menuitem value="Packard Bell" action="#{itemsBean.changeProduct('lt1')}" update="messages" styleClass="menus" />
+                        <p:menuitem value="Osborne 1" action="#{itemsBean.changeProduct('lt2')}" update="messages" styleClass="menus" />
+                        <p:menuitem value="Tablet(Ancient)" action="#{itemsBean.changeProduct('tablet')}" update="messages" styleClass="menus"/>
+                    </p:submenu>
+                </p:tieredMenu>
+            </h:panelGrid>
+           
+            <p:tieredMenu 
+                overlay="true" 
+                trigger="phoneLink" 
+                my="left top" 
+                at="left bottom" style="width:200px; border: white; padding: 0px">
+
+               
+                <p:submenu label="Antique Phones" styleClass="affaires">
+                    <p:menuitem value="Thom Edison Edition" action="#{itemsBean.changeProduct('ad1')}" update="messages" styleClass="menus" />
+                    <p:menuitem value="Rotary Phone" action="#{itemsBean.changeProduct('ad2')}" update="messages" styleClass="menus" />
+                </p:submenu>
+
+               
+                <p:submenu label="Mobile Phones!" styleClass="affaires">
+                    <p:menuitem value="First ever" action="#{itemsBean.changeProduct('ip1')}" update="messages"   />
+                    <p:menuitem value="- . .-.. . --. .-. .- .--. ...." action="#{itemsBean.changeProduct('ip2')}" update="messages"   />
+                </p:submenu>
+            </p:tieredMenu>
+        </h:form>
+    </h:body>
+</html>

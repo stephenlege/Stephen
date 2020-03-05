@@ -1,0 +1,1 @@
+<p id="login_bar" style="#{loginBean.loginInfoStyles}">Welcome #{loginBean.userName1}!</p>

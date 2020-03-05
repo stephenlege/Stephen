@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <h:head>
+        <title>traverse collections</title>
+    </h:head>
+    <h:body>
+        <h3>Iterate an ArrayList</h3>
+        <ui:repeat var="t" value="#{purchases.mediumItems}">
+            <h:outputText value="#{t}"/><br/>
+        </ui:repeat>
+        
+        <h3>Iterate a Map</h3>
+        <ui:repeat var="t" value="#{purchases.valuableItems}">
+        <h:outputText value="#{t} "/><br/>
+        </ui:repeat>
+        
+        
+        <h3>Iterate a Map with just value</h3>
+        <ui:repeat var="t" value="#{purchases.valuableItems}">
+            <h:outputText value="#{purchases.valuableItems.values.get(t)} "/><br/>
+        </ui:repeat>
+        
+        <h3>Iterate a simple Array with ui:repeat</h3>
+        <ui:repeat var="t" value="#{purchases.cheapItems}">
+        <h:outputText value="#{t}"/><br/>
+        </ui:repeat>
+        
+        <h3>Iterate a simple Array forEach</h3>
+        <c:forEach var="t" items="#{purchases.cheapItems}">
+        <h:outputText value="#{t}"/><br/>
+        </c:forEach>
+        
+    </h:body>
+</html>
+

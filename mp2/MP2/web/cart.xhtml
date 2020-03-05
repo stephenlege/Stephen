@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f5="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <title></title>
+    </h:head>
+    <h:body onload="#{itemsBean.getAllProducts()}">
+        <ui:composition template="template/layout.xhtml">     
+
+            <ui:param name="wrapperWidth" value="1055px"/>
+
+            <ui:define name="title">
+               Woohoo Computers
+            </ui:define>
+
+            <ui:define name="login">
+                <h:form style="#{loginBean.loginBarStyles}">
+                    <h:inputText styleClass="inputs" value="#{loginBean.userLogin}" f5:type="email" f5:placeholder="E-mail"/>            
+                    <h:inputSecret  styleClass="inputs" value="#{loginBean.userPassword}" f5:placeholder="Password"/>            
+                    <h:commandButton styleClass="lbutton" value="Login" action="#{loginBean.login()}"/>
+                    <h:outputText style="color: red;" value="#{loginBean.error}"/>
+                </h:form>
+                <p id="login_bar" style="#{loginBean.loginInfoStyles}">Welcome #{loginBean.userLogin}!</p>
+            </ui:define>
+
+            <ui:param name="search" value="true"/>
+            <ui:define name="search">
+                <h:form>
+                    <h:inputText styleClass="inputs" value="#{itemsBean.searchTerm}" f5:type="search" f5:placeholder="Search"/>
+                    <h:commandButton styleClass="lbutton" value="Search" action="#{itemsBean.search()}"/>
+                </h:form>
+            </ui:define>
+
+            <ui:define name="logo"/>
+
+            <ui:define name="top">     
+                We Sell Antiques
+            </ui:define>
+
+            <ui:define name="menu">
+                <ui:include src="rafaMenu.xhtml" />
+            </ui:define>
+
+            <ui:param name="leftWidth" value="200px"/>
+            <ui:define name="left">
+                <ui:include src="tieredMenu.xhtml"/>
+            </ui:define>
+
+            <ui:param name="right" value="false"/>
+
+            <ui:define name="content" id="contentdiv">               
+                <hr/>
+                <h:form>
+                    <h1 style="text-align: center;">Cart Items</h1>
+                    <p:dataTable value="#{itemsBean.buyList}" var="key">
+                        <p:column style="text-align: center;">
+                            <h:outputText value="#{key.id}" style="font-size: 2em;"/>
+                        </p:column>
+                        <p:column style="text-align: center;">
+                            <h:outputText value="#{key.itemName}" style="font-size: 2em;"/>
+                        </p:column>
+                        <p:column style="text-align: center;">
+                            <h:outputText value="#{key.price}" style="font-size: 2em;"/>
+                        </p:column>
+                    </p:dataTable>
+                    <p:panelGrid columns="2" style="margin-left: auto; margin-right: auto;">
+                        <p:panel><h:commandButton value="Remove Last Item" action="#{itemsBean.remove()}"/></p:panel>
+                        <p:panel><h:commandButton value="Remove All" action="#{itemsBean.removeAll()}"/></p:panel>
+                    </p:panelGrid>
+                    <h2 style="text-align: center;">Totals</h2>
+                    <p:panelGrid columns="3" style="margin-left: auto; margin-right: auto;">
+                        <p:panel><h3 style="text-align: left;">Total:</h3><h:outputText value="#{itemsBean.totalBeforeTax}"/></p:panel>
+                        <p:panel><h3 style="text-align: left;">Taxes:</h3><h:outputText value="#{itemsBean.taxes}"/></p:panel>
+                        <p:panel><h3 style="text-align: left;">New Total:</h3><h:outputText value="#{itemsBean.totalAfterTax}"/></p:panel>
+                    </p:panelGrid>
+                    <h:commandButton value="Checkout" action="#{itemsBean.checkout()}" style="margin-left: auto; margin-right: auto;"/>
+                </h:form>  
+                <hr/>
+            </ui:define>
+
+            <ui:define name="bottom">
+                SLCC ASDV © 2018. All Rights Reserved.
+            </ui:define>
+
+        </ui:composition>
+
+        <br />
+        
+    </h:body>
+</html>

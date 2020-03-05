@@ -1,0 +1,8 @@
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-6\South America\obj\Debug\South America.csprojResolveAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-6\South America\obj\Debug\South_America.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-6\South America\obj\Debug\South_America.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-6\South America\obj\Debug\South America.csproj.GenerateResource.Cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-6\South America\bin\Debug\South America.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-6\South America\bin\Debug\South America.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-6\South America\obj\Debug\South America.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-6\South America\obj\Debug\South America.pdb

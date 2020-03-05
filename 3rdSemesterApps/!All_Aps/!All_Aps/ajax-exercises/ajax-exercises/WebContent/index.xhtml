@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<h:head><title>Ajax Exercises</title>
+<link href="./css/styles.css" rel="stylesheet" type="text/css"/> 
+</h:head>
+<h:body>
+<div align="center">
+<h1 class="title">Ajax Exercises</h1>
+<br/>
+<fieldset><legend>Show Current Time</legend>
+<h:form>
+  <h:commandButton value="Update Time">
+    <f:ajax render="timeResult"/>
+  </h:commandButton>
+  <h2><h:outputText value="#{dateBean.time}" id="timeResult"/></h2>
+</h:form>
+</fieldset>
+<br/>
+<fieldset><legend>Count User Presses</legend>
+<h:form>
+  <h:commandButton value="Update Count">
+    <f:ajax render="countResult"/>
+  </h:commandButton>
+  <h2>You have pressed the button
+      <h:outputText value="#{hitCountBean.count}" id="countResult"/> times.
+  </h2>
+</h:form>
+</fieldset>
+<br/>
+<fieldset><legend>Show Sum of Two Numbers</legend>
+<h:form>
+  First number:
+  <h:inputText value="#{sumBean.num1String}"/>
+  Second number:
+  <h:inputText value="#{sumBean.num2String}"/>
+  <h:commandButton value="Compute Sum">
+    <f:ajax execute="@form" render="sumResult"/>
+  </h:commandButton>
+  <h2>Sum: 
+      <h:outputText value="#{sumBean.sum}" id="sumResult"/>
+  </h2>
+</h:form>
+</fieldset>
+<br/>
+<fieldset><legend>City Info Lookup</legend>
+<h:form>
+  City:
+  <h:selectOneMenu value="#{cityBean.cityName}">
+    <f:selectItems value="#{cityBean.cities}"/>
+    <f:ajax render="cityName nflTeam mlbTeam"/>
+  </h:selectOneMenu><br/>
+  <ul>
+    <li>City name: 
+        <h:outputText value="#{cityBean.cityName}" id="cityName"/></li>
+    <li>NFL team: 
+        <h:outputText value="#{cityBean.nflTeam}" id="nflTeam"/></li>
+    <li>MLB team: 
+        <h:outputText value="#{cityBean.mlbTeam}" id="mlbTeam"/></li>
+  </ul>
+</h:form>
+</fieldset>
+
+<br/>
+<fieldset><legend>Navigation: A, B, C, Victory, Defeat</legend>
+<h:form>
+  <h1><h:outputText value="#{navBean.currentPage.message}"
+                    id="pageMessage"/></h1>
+  <h:commandButton value="Try Your Luck" action="#{navBean.doNavigation}">
+    <f:ajax render="pageMessage"/>
+  </h:commandButton>
+  <h:commandButton value="Give Up &amp; Restart" action="#{navBean.giveUp}">
+    <f:ajax render="pageMessage"/>
+  </h:commandButton>
+</h:form>
+</fieldset>
+
+
+
+<ui:include src="/WEB-INF/snippets/training-course-ad.xhtml"/>
+</div></h:body></html>

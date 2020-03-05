@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Implicit Objects</title>
+        <link href="./css/styles.css" rel="stylesheet" type="text/css"/>
+    </h:head>
+    <h:body>
+        <h1 class="title">Passing parameter via URL</h1>
+        <br/>
+        
+        #{param['key1']}<br/>
+        #{param['key2']}<br/>
+        
+        <h:form>
+            <h:commandLink  value="call testBean" action='#{testBean.method1("Hello testBean!")}'>
+            <f:param id = "key1" name="key1" value="#{param['key1']}"></f:param>
+        </h:commandLink>
+        
+        </h:form>
+    </h:body>
+</html>
+

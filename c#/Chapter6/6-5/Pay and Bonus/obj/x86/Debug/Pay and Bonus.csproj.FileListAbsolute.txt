@@ -1,0 +1,9 @@
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-5\Pay and Bonus\bin\Debug\Pay and Bonus.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-5\Pay and Bonus\bin\Debug\Pay and Bonus.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-5\Pay and Bonus\obj\x86\Debug\Pay and Bonus.csprojAssemblyReference.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-5\Pay and Bonus\obj\x86\Debug\Pay_and_Bonus.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-5\Pay and Bonus\obj\x86\Debug\Pay_and_Bonus.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-5\Pay and Bonus\obj\x86\Debug\Pay and Bonus.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-5\Pay and Bonus\obj\x86\Debug\Pay and Bonus.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-5\Pay and Bonus\obj\x86\Debug\Pay and Bonus.exe
+C:\Users\Greg\Desktop\Program Away\C#\Chapter6\6-5\Pay and Bonus\obj\x86\Debug\Pay and Bonus.pdb

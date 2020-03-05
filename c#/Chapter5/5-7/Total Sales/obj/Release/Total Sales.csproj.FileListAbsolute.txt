@@ -1,0 +1,8 @@
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-7\Total Sales\obj\Release\Total_Sales.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-7\Total Sales\obj\Release\Total_Sales.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-7\Total Sales\obj\Release\Total Sales.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-7\Total Sales\obj\Release\Total Sales.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-7\Total Sales\bin\Release\Total Sales.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-7\Total Sales\bin\Release\Total Sales.pdb
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-7\Total Sales\obj\Release\Total Sales.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-7\Total Sales\obj\Release\Total Sales.pdb

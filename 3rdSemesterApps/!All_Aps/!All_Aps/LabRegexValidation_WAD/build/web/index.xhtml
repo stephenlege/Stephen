@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>RegI</title>
+    </h:head>
+    <h:body>
+
+        <h:form>
+            <h:outputLabel value="Phone:"/>
+            <h:inputText id="phoneInputText" required="true"
+                         requiredMessage="Phone is required"
+                         validatorMessage="337-521-1010 or similar"
+                         value="#{validateBean.phone}">
+
+                <f:validateRegex pattern="[\d]{3}[\s]*[-][\s]*[\d]{3}[\s]*[-][\s]*[\d]{4}"/>
+            </h:inputText>
+
+            <h:message for="phoneInputText" style="color: red"/><br/><br/>
+
+            <h:outputLabel value="SSN:"/>
+            <h:inputText id="SSNInputText" required="true"
+                         requiredMessage="SSN is required"
+                         validatorMessage="ddd-dd-dddd or similar"
+                         value="#{validateBean.SSN}">
+
+                <f:validateRegex pattern="[\d]{3}-[\d]{2}-[\d]{4}"/>
+            </h:inputText>
+
+            <h:message for="SSNInputText" style="color: red"/><br/><br/>
+
+            <h:outputLabel value="Date:"/>
+            <h:inputText id="dateInputText" required="true"
+                         requiredMessage="Date is required"
+                         validatorMessage="yyyy-mm-dd or yyyy/mm/dd"
+                         value="#{validateBean.date}">
+
+                <f:validateRegex pattern="[\d]{4}([-/]){1}[\d]{2}([-/]){1}[\d]{2}"/>
+            </h:inputText>
+
+            <h:message for="dateInputText" style="color: red"/><br/><br/>
+
+            <h:outputLabel value="Floating:"/>
+            <h:inputText id="floatInputText" required="true"
+                         requiredMessage="Floating point is required"
+                         validatorMessage="31.1 or 1.11111111"
+                         value="#{validateBean.floating}">
+
+                <f:validateRegex pattern="([0]{1}|[1-9]+[0]*[1-9]*)[.][\d]+"/>
+            </h:inputText>
+
+            <h:message for="floatInputText" style="color: red"/><br/><br/>
+
+            <h:outputLabel value="email:"/>
+            <h:inputText id="emailInputText" required="true"
+                         requiredMessage="email is required"
+                         validatorMessage="some@thing.com"
+                         value="#{validateBean.email}">
+
+                <f:validateRegex pattern="^[\w]+@[\w]+.[\w]{2,4}$"/>
+            </h:inputText>
+
+            <h:message for="emailInputText" style="color: red"/><br/><br/>
+
+
+
+            <h:selectOneRadio immediate="true" label="Credit card type"  valueChangeListener="#{validateBean.changeCCnumber}">  
+                <f:selectItem itemValue="1"  itemLabel="Visa"/>  
+                    
+                <f:selectItem itemValue="2"  itemLabel="Master Card" />
+                <f:selectItem itemValue="3"  itemLabel="American Express" />
+                <f:selectItem itemValue="4"  itemLabel="Diners"/>
+                <f:selectItem itemValue="5"  itemLabel="Discover"/>
+            </h:selectOneRadio> <br/>
+            
+            
+                <h:inputText label="Credit Card Number:"
+                              id="inputCCnumber" required="true"
+                              requiredMessage="Credit Card required"
+                              validatorMessage="#{validateBean.CCmessage}"
+                              value="#{validateBean.CCnumber}">
+                    <f:validateRegex pattern="#{validateBean.patern}"/>
+                </h:inputText>
+            <h:message for="inputCCnumber" style="color: red"/><br/><br/>
+
+            <h:commandButton value = "submit" action = "result"/>
+        </h:form>
+    </h:body>
+</html>
+

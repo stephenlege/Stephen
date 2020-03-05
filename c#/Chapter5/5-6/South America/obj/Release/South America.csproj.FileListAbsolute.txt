@@ -1,0 +1,9 @@
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-6\South America\bin\Release\South America.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-6\South America\bin\Release\South America.pdb
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-6\South America\obj\Release\South_America.Form1.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-6\South America\obj\Release\South_America.Properties.Resources.resources
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-6\South America\obj\Release\South America.csproj.GenerateResource.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-6\South America\obj\Release\South America.csproj.CoreCompileInputs.cache
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-6\South America\obj\Release\South America.exe
+C:\Users\Greg\Desktop\Program Away\C#\chapter5\5-6\South America\obj\Release\South America.pdb
+C:\Users\Greg\Desktop\Program Away\C#\Chapter5\5-6\South America\obj\Release\South America.csprojAssemblyReference.cache
